@@ -1,0 +1,30 @@
+{
+  "name": "jpost",
+  "version": "1.0.0",
+  "description": "A static blog framework width markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serv": "node .bin/server.js",
+    "watch": "node .bin/parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owcc/jpost.git"
+  },
+  "keywords": [
+    "jpost"
+  ],
+  "author": "Orlo Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owcc/jpost/issues"
+  },
+  "homepage": "https://github.com/owcc/jpost#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "fs-extra": "^0.26.5",
+    "gaze": "^0.5.2",
+    "jquery": "^2.2.1"
+  }
+}
